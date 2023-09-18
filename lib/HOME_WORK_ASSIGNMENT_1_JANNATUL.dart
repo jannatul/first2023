@@ -27,6 +27,7 @@ calculateInterest(Function fn,
 } // end of calculate  interest
 
 void main() {
+  // Simple Interest
   calculateInterest(
       (var principalAmount, var tenure, var interestRateInDecimal) {
     return principalAmount * tenure * interestRateInDecimal;
