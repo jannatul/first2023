@@ -17,9 +17,9 @@ calculateInterest(Function fn,
   stdout.write('       ' );
   stdout.write(interestRateDecimal);
   stdout.write('                    ' );
-  stdout.write(interestAmount);
-  stdout.write('     ' );
-  stdout.write(amount+interestAmount);
+  stdout.write(interestAmount.toStringAsFixed(2));
+  stdout.write('         ' );
+  stdout.write((amount+interestAmount).toStringAsFixed(2));
   print('');
 //print('----------------------------------------------------------------------');
 
@@ -32,7 +32,7 @@ void main() {
   Random randomLoanAmount = new Random();
   Random randomInterestRateDecimal= new Random();
 
-  print('Principal  Tenure  Interest_Rate_decimal     Interest       Total  ');
+  print('Principal  Tenure  Interest_Rate_decimal     Interest         Total  ');
   for(int i=0;i<10;i++){
 
     calculateInterest(
