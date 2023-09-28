@@ -1,0 +1,29 @@
+[{
+  "title": "Introduction to Research",
+  "author": "Ragib Hasan",
+  "price": 300
+},
+
+  {
+    "title": "Motivation",
+    "author": "Yasmin Mojahed",
+    "price": 600
+  },
+  {
+    "title": "Time",
+    "author": "Steven",
+    "price": 1000
+  },
+  {
+    "title": "Space",
+    "author": "Armstrong",
+    "price": 2000
+  },
+  {
+    "title": "Biology",
+    "author": "BASHU",
+    "price": 3000
+  }
+
+
+]
